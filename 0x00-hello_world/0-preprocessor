@@ -1,0 +1,9 @@
+#!/bin/bash
+
+CFILE="your_c_file.c"
+
+OUTPUT_FILE="c_output.c"
+
+gcc -E $CFILE -o $OUTPUT_FILE
+
+echo "Preprocessed output saved to: $OUTPUT_FILE"
