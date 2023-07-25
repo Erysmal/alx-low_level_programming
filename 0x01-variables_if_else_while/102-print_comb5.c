@@ -16,7 +16,7 @@ int main(void)
 		{
 			for (digit3 = digit1; digit3 <= 9; digit3++)
 			{
-				for (digit4 = (digit3 == digit1) ? (digit2 +1) : 0; digit4 <= 9; digit4++)
+				for (digit4 = (digit3 == digit1) ? (digit2 + 1) : 0; digit4 <= 9; digit4++)
 				{
 					putchar(digit1 + '0');
 					putchar(digit2 + '0');
