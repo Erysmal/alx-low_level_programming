@@ -23,7 +23,7 @@ void print_dog(struct dog *d)
 		}
 		else
 		{
-			printf("Name: (nil)\n");
+			printf("%d,0");
 		}
 
 		if (d->owner != NULL)
