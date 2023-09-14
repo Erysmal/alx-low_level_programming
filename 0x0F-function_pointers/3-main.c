@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Error: Invalid number of arguments\n");
-		return (99);
+		printf("Error\n");
+		return (98);
 	}
 
 	num1 = atoi(argv[1]);
